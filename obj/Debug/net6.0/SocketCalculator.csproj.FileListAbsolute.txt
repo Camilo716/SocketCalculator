@@ -1,0 +1,15 @@
+/home/camilogs/Desktop/Practices/SocketCalculator/bin/Debug/net6.0/SocketCalculator
+/home/camilogs/Desktop/Practices/SocketCalculator/bin/Debug/net6.0/SocketCalculator.deps.json
+/home/camilogs/Desktop/Practices/SocketCalculator/bin/Debug/net6.0/SocketCalculator.runtimeconfig.json
+/home/camilogs/Desktop/Practices/SocketCalculator/bin/Debug/net6.0/SocketCalculator.dll
+/home/camilogs/Desktop/Practices/SocketCalculator/bin/Debug/net6.0/SocketCalculator.pdb
+/home/camilogs/Desktop/Practices/SocketCalculator/obj/Debug/net6.0/SocketCalculator.csproj.AssemblyReference.cache
+/home/camilogs/Desktop/Practices/SocketCalculator/obj/Debug/net6.0/SocketCalculator.GeneratedMSBuildEditorConfig.editorconfig
+/home/camilogs/Desktop/Practices/SocketCalculator/obj/Debug/net6.0/SocketCalculator.AssemblyInfoInputs.cache
+/home/camilogs/Desktop/Practices/SocketCalculator/obj/Debug/net6.0/SocketCalculator.AssemblyInfo.cs
+/home/camilogs/Desktop/Practices/SocketCalculator/obj/Debug/net6.0/SocketCalculator.csproj.CoreCompileInputs.cache
+/home/camilogs/Desktop/Practices/SocketCalculator/obj/Debug/net6.0/SocketCalculator.dll
+/home/camilogs/Desktop/Practices/SocketCalculator/obj/Debug/net6.0/refint/SocketCalculator.dll
+/home/camilogs/Desktop/Practices/SocketCalculator/obj/Debug/net6.0/SocketCalculator.pdb
+/home/camilogs/Desktop/Practices/SocketCalculator/obj/Debug/net6.0/SocketCalculator.genruntimeconfig.cache
+/home/camilogs/Desktop/Practices/SocketCalculator/obj/Debug/net6.0/ref/SocketCalculator.dll
