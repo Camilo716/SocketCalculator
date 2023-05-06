@@ -20,8 +20,24 @@ public class Client
     public string CalcOperation(string operation)
     {
         SendData(operation);
-        string data = ReceiveData();
-        return ProcessReceivedData(data);
+
+        string data = RecolectData();
+        
+        return data;
+
+        //return ProcessReceivedData(data);
+    }
+
+    public string RecolectData()
+    {
+        string dataBuffer = "";
+
+        while (!dataBuffer.EndsWith("\n\n"))
+        {
+            dataBuffer += ReceiveData();
+        }
+
+        return dataBuffer;
     }
 
     public void Connect()
@@ -31,7 +47,7 @@ public class Client
 
     public void SendData(string operation)
     {
-        byte[] msg = Encoding.ASCII.GetBytes(operation + "\n");
+        byte[] msg = Encoding.ASCII.GetBytes(operation + "\n\n");
         _socket.Send(msg);
     }
 
@@ -40,11 +56,15 @@ public class Client
         string opResult = stringReceived.Split(':')[1];
         return opResult.Replace("\n", "");
     }
-
+    
     public string ReceiveData()
     {
-        byte[] buffer = new byte[1000000];
+        byte[] buffer = new byte[10000];
         int bytesReceived = _socket.Receive(buffer);
-        return Encoding.ASCII.GetString(buffer, 0, bytesReceived);
+        
+        string data = Encoding.ASCII.GetString(buffer, 0, bytesReceived);
+
+        return data;
     }
 }
+
